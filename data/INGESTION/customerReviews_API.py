@@ -42,3 +42,4 @@ blob = bucket.blob(GCS_PATH)
 blob.upload_from_filename(local_parquet_file)
 
 print(f"✅ Data successfully written to gs://{GCS_BUCKET}/{GCS_PATH}")
+
